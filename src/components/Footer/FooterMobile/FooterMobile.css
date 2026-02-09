@@ -1,0 +1,58 @@
+@media (max-width: 720px) {
+  .footer-content {
+    padding: 52px 0 40px 0;
+  }
+  .footer-top-column {
+    margin-bottom: 32px;
+  }
+  .wrapper-footer-logo .wrapper-footer-icon-logo {
+    margin-right: 7px;
+  }
+  .wrapper-footer-logo .wrapper-footer-icon-logo .footer-logo {
+    width: 46px;
+    height: 46px;
+  }
+  .wrapper-footer-logo .footer-text-logo {
+    font-size: 22px;
+    line-height: 24px;
+  }
+  .footer-nav-bar {
+    display: flex;
+    flex-flow: column;
+    gap: 30px;
+  }
+  .footer-nav-bar__item {
+    font-size: 14px;
+    line-height: 18.88px;
+    text-transform: uppercase;
+  }
+  .footer-border {
+    border: 1px solid #818181;
+    margin: 25px 0 56px 0;
+  }
+  .footer-bottom-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .date-footer {
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+    color: #999999;
+  }
+  .footer-border {
+    margin: 48px 0 26px 0;
+  }
+  .footer-text-date {
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #999999;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=FooterMobile.css.map */

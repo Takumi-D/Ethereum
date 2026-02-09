@@ -1,0 +1,98 @@
+.embla {
+  position: relative;
+  width: 100%;
+}
+
+.embla__viewport {
+  overflow: hidden;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.embla__container {
+  display: flex;
+  gap: 40px;
+}
+
+.embla__slide {
+  flex: 0 0 280px;
+  min-width: 0;
+}
+@media (max-width: 640px) {
+  .embla__slide {
+    flex: 0 0 85%;
+  }
+}
+
+.scroll {
+  background: #F1F1F1;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.scroll-title {
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-size: 46px;
+  line-height: 48%;
+  color: #C5C5C5;
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+.wrapper-embla-button {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 20px;
+  width: 166px;
+  height: 64px;
+  background: #FCFCFD;
+  box-shadow: 0px 43.12px 34.49px -25.87px rgba(15, 15, 15, 0.1215686275);
+  margin: 70px auto 0 auto;
+  border-radius: 17.25px;
+}
+
+.embla-btn {
+  border: none;
+  background: #FCFCFD;
+  outline: none;
+  cursor: pointer;
+}
+
+.border-embla {
+  width: 2px;
+  height: 24px;
+  background: #E6E8EC;
+}
+
+@media (max-width: 1024px) {
+  .embla__container {
+    gap: 32px;
+  }
+  .embla__slide {
+    flex: 0 0 210px;
+  }
+  .scroll {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .scroll-title {
+    font-size: 32px;
+    line-height: 36px;
+    padding-bottom: 50px;
+  }
+  .wrapper-embla-button {
+    padding: 21px 15px;
+    width: 124px;
+    height: 48px;
+    border-radius: 12.94px;
+    margin: 50px auto 0 auto;
+  }
+  .border-embla {
+    height: 18px;
+  }
+}
+
+/*# sourceMappingURL=Scroll.css.map */
